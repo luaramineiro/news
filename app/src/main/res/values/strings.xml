@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">+ Notícias</string>
+    <string name="list">Notícias</string>
+    <string name="favorites">Favoritos</string>
+    <string name="historic">Histórico</string>
+    <string name="info">Informações</string>
+    <string name="title_list">+ Notícias</string>
+    <string name="title_favorites">+ Notícias - Favoritos</string>
+    <string name="title_historic">+ Notícias - Histórico</string>
+    <string name="title_info">+ Notícias - Informações</string>
+    <string name="title_detail">+ Notícias - Detalhe</string>
+    <string name="title_versao">Versão:</string>
+    <string name="number_versao">1.0.0</string>
+    <string name="title_dev">Desenvolvido por:</string>
+    <string name="name_dev">Luara Mineiro</string>
+    <string name="title_sites">As nóticias que são exibidas neste aplicativo, são retiradas do site :</string>
+    <string name="name_sites">BBC Brasil</string>
+    <string name="url_sites">http://www.bbc.com/portuguese</string>
+    <string name="image_feed">Imagem Feed</string>
+</resources>

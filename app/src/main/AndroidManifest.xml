@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mineiro.luara.projeto_noticias">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activitys.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activitys.ListNewsActivity"
+            android:label="@string/title_list" />
+        <activity
+            android:name=".activitys.InfoActivity"
+            android:label="@string/title_info" />
+        <activity
+            android:name=".activitys.HistoricActivity"
+            android:label="@string/title_historic" />
+        <activity
+            android:name=".activitys.FavoritesActivity"
+            android:label="@string/title_favorites" />
+        <activity
+            android:name=".activitys.DetailNewsActivity"
+            android:label="@string/title_detail"></activity>
+    </application>
+
+</manifest>
